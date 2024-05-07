@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 25;
     private Rigidbody2D rb2d;
     public float verticalInput;
+    private float yRange = 4.5f;
+    public GameObject obstaclePrefab;
 
     // Start is called before the first frame update
     void Start()
@@ -20,13 +22,13 @@ public class PlayerController : MonoBehaviour
     {
         verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector2.up * verticalInput * Time.deltaTime * speed);
-        if (transform.position.y < -4.5)
+        if (transform.position.y < -yRange)
         {
-            transform.position = new Vector2(transform.position.x, -4.5f);
+            transform.position = new Vector2(transform.position.x, -yRange);
         }
-        if (transform.position.y > 4.5)
+        if (transform.position.y > yRange)
         {
-            transform.position = new Vector2(transform.position.x, 4.5f);
+            transform.position = new Vector2(transform.position.x, yRange);
         }
     }
     
