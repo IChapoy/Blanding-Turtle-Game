@@ -8,9 +8,16 @@ public class onHit : MonoBehaviour
     {
         gameObject.GetComponent<Renderer>().material.color = Color.red;
         gameObject.GetComponent<Collider2D>().isTrigger = true;
+        Invoke(nameof(ResetEffect),3f);
+    }
+    private void ResetEffect()
+    {
+        gameObject.GetComponent<Renderer>().material.color = Color.green;
+        gameObject.GetComponent<Collider2D>().isTrigger = false;
+
+
 
     }
-    
     // Start is called before the first frame update
     void Start()
     {
