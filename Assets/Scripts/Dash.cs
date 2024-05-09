@@ -10,11 +10,15 @@ public class Dash : MonoBehaviour
     void Start()
     {
         //if turtle eats something to give it a speed boost:
-        //transform.Translate(Vector2.forward * Time.deltaTime * 50)
+        // for a set amount of time, increase speed
+        
+         
+        //transform.Translate(Vector2.forward * Time.deltaTime * 50);
+           
+  
     }
-
-    // Update is called once per frame
-    void Update()
+        // Update is called once per frame
+        void Update()
     {
         
     }
