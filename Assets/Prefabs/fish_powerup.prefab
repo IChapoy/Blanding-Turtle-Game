@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1131525490173486469}
   - component: {fileID: 1035405301155482268}
   - component: {fileID: 2715090227178754576}
+  - component: {fileID: 7822606087926398406}
   m_Layer: 0
   m_Name: fish_powerup
-  m_TagString: Untagged
+  m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +130,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -145,3 +146,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.87483764, y: 0.7117479}
   m_EdgeRadius: 0
+--- !u!114 &7822606087926398406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4666986795773547472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a5d88fdb2d2e446a71b3a6960354c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
