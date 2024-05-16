@@ -7,10 +7,10 @@ public class PlayerController : MonoBehaviour
     public float speed;
     private Rigidbody2D rb2d;
     public float verticalInput;
-    private float yRange = 4.5f;
+    public float yRange;
     public GameObject obstaclePrefab;
     public float horizontalInput;
-    public float xRange = 8.825f;
+    public float xRange;
 
     // Start is called before the first frame update
     void Start()
