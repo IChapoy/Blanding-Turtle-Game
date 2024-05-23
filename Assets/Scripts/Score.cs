@@ -8,7 +8,9 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour
 {
     public int score;
+    public TextMeshProUGUI scoreDisplay;
     public int pointsPerCollect = 25;
+    public int lossPerHit = 50;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Food"))
@@ -18,9 +20,14 @@ public class Score : MonoBehaviour
             UpdateScoreDisplay();
 
         }
+        else if (other.CompareTag("Obstacle"))
+        {
+            score -= lossPerHit;
+            Destroy(other.gameObject);
+            UpdateScoreDisplay();
+        }
 
     }
-    public TextMeshProUGUI scoreDisplay;
     public void UpdateScoreDisplay()
     {
         scoreDisplay.text = "Score: " + score;

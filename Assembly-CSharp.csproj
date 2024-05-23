@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1FDEA38B-1B3C-2D1D-E758-0BE8A04A2475}</ProjectGuid>
+    <ProjectGuid>{FED99DFF-22C9-44B7-A473-326AF337578C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,11 +58,11 @@
     <Analyzer Include="C:\Program Files\Unity 2023.1.9f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ScoreText.cs" />
     <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\damage.cs" />
     <Compile Include="Assets\Scripts\DetectCollisions.cs" />
     <Compile Include="Assets\Scripts\onHit.cs" />
     <Compile Include="Assets\Scripts\Dash.cs" />
