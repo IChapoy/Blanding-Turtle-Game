@@ -16,12 +16,12 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnRandomObstacle", startDelay, spawnInterval);
+        InvokeRepeating("SpawnRandomObstacle", startDelay, spawnInterval); //starts spawning the obstacles repeatedly once the game starts
     }
 
     void SpawnRandomObstacle()
     {
-        int obstacleIndex = Random.Range(0, obstaclePrefabs.Length);
+        int obstacleIndex = Random.Range(0, obstaclePrefabs.Length); 
         Vector2 spawnPos = new Vector2(spawnRangeX, Random.Range(-spawnRangeY, spawnRangeY));
         Instantiate(obstaclePrefabs[obstacleIndex], spawnPos, obstaclePrefabs[obstacleIndex].transform.rotation);
     }
