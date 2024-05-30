@@ -27,7 +27,7 @@ public class DetectCollisions : MonoBehaviour
         }
         else if (tag == "Obstacle")
         {
-
+            
         }
        
     }

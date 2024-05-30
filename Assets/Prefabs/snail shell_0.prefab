@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7672864430297467256}
   - component: {fileID: 7231174058276102323}
   - component: {fileID: -698572798738031637}
+  - component: {fileID: 1635670392047658292}
   m_Layer: 0
   m_Name: snail shell_0
   m_TagString: Food
@@ -156,5 +157,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5a5d88fdb2d2e446a71b3a6960354c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1635670392047658292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782225893175062434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c676830eecbb5d4087d9b2b3774bdb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

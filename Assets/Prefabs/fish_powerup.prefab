@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1035405301155482268}
   - component: {fileID: 2715090227178754576}
   - component: {fileID: 7822606087926398406}
+  - component: {fileID: -7687438575391761412}
   m_Layer: 0
   m_Name: fish_powerup
   m_TagString: Food
@@ -156,5 +157,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5a5d88fdb2d2e446a71b3a6960354c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-7687438575391761412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4666986795773547472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c676830eecbb5d4087d9b2b3774bdb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
