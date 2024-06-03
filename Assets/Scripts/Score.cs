@@ -9,6 +9,9 @@ public class Score : MonoBehaviour
     public int pointsPerCollect = 25;
     public AudioSource crunch1;
     public AudioSource crunch2;
+    public AudioSource hurt;
+
+
 
 
 
@@ -43,6 +46,7 @@ public class Score : MonoBehaviour
             score -= pointsPerCollect;
             Destroy(other.gameObject);
             UpdateScoreDisplay();
+            hurt.Play();
         }
     }
 
